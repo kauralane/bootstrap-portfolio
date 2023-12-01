@@ -5,6 +5,11 @@
 }
 
 /* Nav bar */
+
+.my-navbar {
+border-bottom: var(--secondary-accent-color) solid 1px;
+}
+
 .navbar-brand img {
     object-fit: cover;
 }
@@ -55,3 +60,14 @@ h3 {
     max-width: 80px;
 }
 
+.skills-section p {
+    padding-top: 20px;
+}
+
+.card-title {
+    color:var(--secondary-accent-color);
+}
+
+.skills-section img {
+    
+}
