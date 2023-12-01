@@ -8,12 +8,35 @@
 .navbar-brand img {
     object-fit: cover;
 }
-
-.nav-item {
-    color: white;
+/* Nothing working */
+.nav-item a {
+    color: white !important;
+    font-weight: bold;
 }
 
-/* Unable to make links different colour when hovering - come back to this */
-.nav-link a:hover {
+.nav-item a:hover {
     color: var(--secondary-accent-color) !important;
+}
+
+.nav-item a:focus {
+    color: var(--secondary-accent-color) !important;
+}
+
+/* Hero section - not working properly */
+.hero-area {
+    background-color:var(--main-accent-color);
+    background-image:url(./images/hero-image.png);
+    background-position:right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.my-button {
+    color: white !important;
+}
+
+.hero-area h1 {
+    color:var(--secondary-accent-color);
 }
