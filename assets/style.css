@@ -60,14 +60,30 @@ h3 {
     max-width: 80px;
 }
 
-.skills-section p {
-    padding-top: 20px;
-}
-
 .card-title {
     color:var(--secondary-accent-color);
 }
 
-.skills-section img {
-    
+/* Portfolio styling */
+#portfolio-section {
+    padding-top: 50px;
 }
+
+.card img {
+    height: 300px;
+    object-fit: cover;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+/* Contact styling */
+#contact-section {
+    padding-top: 50px;
+}
+
