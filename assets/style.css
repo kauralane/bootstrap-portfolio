@@ -82,6 +82,10 @@ a:hover {
     cursor: pointer;
 }
 
+.card-body p {
+    color: black;
+}
+
 /* Contact styling */
 #contact-section {
     padding-top: 50px;
