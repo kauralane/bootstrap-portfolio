@@ -49,3 +49,9 @@
 h3 {
     color: var(--secondary-accent-color);
 }
+
+.skills-section img {
+    max-height: 100px;
+    max-width: 80px;
+}
+
