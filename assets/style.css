@@ -1,6 +1,19 @@
 :root {
-    --main-accent-color: ;
+    --main-accent-color: #F5CE3E;
     --background-color: white;
-    --secondary-accent-color: black;
+    --secondary-accent-color:#CE3EF5;
 }
 
+/* Nav bar */
+.navbar-brand img {
+    object-fit: cover;
+}
+
+.nav-item {
+    color: white;
+}
+
+/* Unable to make links different colour when hovering - come back to this */
+.nav-link a:hover {
+    color: var(--secondary-accent-color) !important;
+}
