@@ -40,3 +40,12 @@
 .hero-area h1 {
     color:var(--secondary-accent-color);
 }
+
+/* About Section */
+.about-row {
+    justify-content: center;
+}
+
+h3 {
+    color: var(--secondary-accent-color);
+}
