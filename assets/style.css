@@ -104,10 +104,11 @@ a:hover {
 .contact-container {
     background-color: var(--secondary-accent-color);
     border-radius: 5px;
-    height:100px;
+    height:50px;
     justify-content: center;
     flex-direction: row;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .contact-link a, .contact-link p {
@@ -129,4 +130,18 @@ a:hover {
     align-items:center;
     justify-content: center;
     align-self: center;
+}
+
+/* Footer styles */
+.footer-button {
+    background-color:var(--secondary-accent-color);
+}
+
+footer {
+    padding: 10px;
+    background-color: var(--main-accent-color);
+}
+
+.footer-button:hover {
+    background-color:var(--background-color);
 }
