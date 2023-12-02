@@ -49,6 +49,7 @@ border-bottom: var(--secondary-accent-color) solid 1px;
 /* About Section */
 .about-row {
     justify-content: center;
+    g
 }
 
 h3 {
@@ -86,8 +87,46 @@ a:hover {
     color: black;
 }
 
+.project-card img:hover {
+    filter: brightness(1.2);
+    transition: all 0.3s ease-in-out;
+}
+
+.project-3-4 {
+    margin-top: 15px;
+}
+
 /* Contact styling */
 #contact-section {
     padding-top: 50px;
 }
 
+.contact-container {
+    background-color: var(--secondary-accent-color);
+    border-radius: 5px;
+    height:100px;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.contact-link a, .contact-link p {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0;
+    padding: 10px;
+    justify-content: center;
+}
+
+.contact-link a:hover, .contact-link p:hover {
+    color:var(--main-accent-color);
+    text-shadow: #FC0 0 1px 20px;
+    transition: all 0.2s ease-in-out;
+}
+
+.contact-link {
+    align-items:center;
+    justify-content: center;
+    align-self: center;
+}
