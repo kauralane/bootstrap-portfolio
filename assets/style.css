@@ -49,11 +49,10 @@ border-bottom: var(--secondary-accent-color) solid 1px;
 /* About Section */
 .about-row {
     justify-content: center;
-    g
 }
 
 h3 {
-    color: var(--secondary-accent-color);
+    color:var(--secondary-accent-color);
 }
 
 .skills-section img {
@@ -105,6 +104,7 @@ a:hover {
     background-color: var(--secondary-accent-color);
     border-radius: 5px;
     height:50px;
+    max-width: 500px;
     justify-content: center;
     flex-direction: row;
     margin-top: 10px;
