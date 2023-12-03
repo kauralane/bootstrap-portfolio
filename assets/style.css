@@ -1,12 +1,12 @@
 :root {
     --main-accent-color: #F5CE3E;
     --background-color: white;
-    --secondary-accent-color:#CE3EF5;
+    --secondary-accent-color: #CE3EF5;
 }
 
 /* Nav bar */
 .my-navbar {
-border-bottom: var(--secondary-accent-color) solid 1px;
+    border-bottom: var(--secondary-accent-color) solid 1px;
 }
 
 .navbar-brand img {
@@ -18,15 +18,16 @@ border-bottom: var(--secondary-accent-color) solid 1px;
     font-weight: bold;
 }
 
-.nav-item a:hover, .nav-item a:focus {
+.nav-item a:hover,
+.nav-item a:focus {
     color: var(--secondary-accent-color) !important;
 }
 
 /* Hero section - not working properly */
 .hero-area {
-    background-color:var(--main-accent-color);
-    background-image:url(./images/hero-image.png);
-    background-position:right;
+    background-color: var(--main-accent-color);
+    background-image: url(./images/hero-image.png);
+    background-position: right;
     background-repeat: no-repeat;
     background-size: contain;
     display: flex;
@@ -42,7 +43,7 @@ border-bottom: var(--secondary-accent-color) solid 1px;
 }
 
 .hero-area h1 {
-    color:var(--secondary-accent-color);
+    color: var(--secondary-accent-color);
 }
 
 /* About Section */
@@ -51,7 +52,7 @@ border-bottom: var(--secondary-accent-color) solid 1px;
 }
 
 h3 {
-    color:var(--secondary-accent-color);
+    color: var(--secondary-accent-color);
 }
 
 .skills-section img {
@@ -60,7 +61,7 @@ h3 {
 }
 
 .card-title {
-    color:var(--secondary-accent-color);
+    color: var(--secondary-accent-color);
 }
 
 /* Portfolio styling */
@@ -102,7 +103,7 @@ a:hover {
 .contact-container {
     background-color: var(--secondary-accent-color);
     border-radius: 5px;
-    height:50px;
+    height: 50px;
     max-width: 500px;
     justify-content: center;
     flex-direction: row;
@@ -110,7 +111,8 @@ a:hover {
     margin-bottom: 10px;
 }
 
-.contact-link a, .contact-link p {
+.contact-link a,
+.contact-link p {
     color: white;
     font-weight: bold;
     font-size: 18px;
@@ -119,21 +121,22 @@ a:hover {
     justify-content: center;
 }
 
-.contact-link a:hover, .contact-link p:hover {
-    color:var(--main-accent-color);
+.contact-link a:hover,
+.contact-link p:hover {
+    color: var(--main-accent-color);
     text-shadow: #FC0 0 1px 20px;
     transition: all 0.2s ease-in-out;
 }
 
 .contact-link {
-    align-items:center;
+    align-items: center;
     justify-content: center;
     align-self: center;
 }
 
 /* Footer styles */
 .footer-button {
-    background-color:var(--secondary-accent-color);
+    background-color: var(--secondary-accent-color);
 }
 
 footer {
@@ -143,7 +146,7 @@ footer {
 }
 
 .footer-button:hover {
-    background-color:var(--background-color);
+    background-color: var(--background-color);
     color: var(--secondary-accent-color);
 }
 
