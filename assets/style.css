@@ -5,7 +5,6 @@
 }
 
 /* Nav bar */
-
 .my-navbar {
 border-bottom: var(--secondary-accent-color) solid 1px;
 }
@@ -13,17 +12,13 @@ border-bottom: var(--secondary-accent-color) solid 1px;
 .navbar-brand img {
     object-fit: cover;
 }
-/* Nothing working */
+
 .nav-item a {
     color: white !important;
     font-weight: bold;
 }
 
-.nav-item a:hover {
-    color: var(--secondary-accent-color) !important;
-}
-
-.nav-item a:focus {
+.nav-item a:hover, .nav-item a:focus {
     color: var(--secondary-accent-color) !important;
 }
 
@@ -144,6 +139,7 @@ a:hover {
 footer {
     padding: 10px;
     background-color: var(--main-accent-color);
+    margin-top: 50px;
 }
 
 .footer-button:hover {
