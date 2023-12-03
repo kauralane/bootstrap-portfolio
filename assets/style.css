@@ -42,6 +42,10 @@ border-bottom: var(--secondary-accent-color) solid 1px;
     color: white !important;
 }
 
+.my-button a:hover {
+    background-color: var(--main-accent-color);
+}
+
 .hero-area h1 {
     color:var(--secondary-accent-color);
 }
@@ -144,4 +148,10 @@ footer {
 
 .footer-button:hover {
     background-color:var(--background-color);
+    color: var(--secondary-accent-color);
+}
+
+/* Buttons */
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19)
 }
