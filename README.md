@@ -5,7 +5,8 @@ I previously made a portfolio page using HTML and CSS, and I found that it's cer
 
 The page also includes a link to my CV. 
 
-[Deployed application] 
+[Deployed application](https://kauralane.github.io/bootstrap-portfolio/)
+
 [Screenshot](./assets/images/screenshot.png)
 
 ## Installation
