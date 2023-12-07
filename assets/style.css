@@ -38,10 +38,6 @@
     .hero-area {
     background-image: none;
     }
-
-    .hero-area.container-fluid p {
-        size: 10px;
-    }
 }
 
 .my-button {
