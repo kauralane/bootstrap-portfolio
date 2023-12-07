@@ -23,7 +23,7 @@
     color: var(--secondary-accent-color) !important;
 }
 
-/* Hero section - not working properly */
+/* Hero section */
 .hero-area {
     background-color: var(--main-accent-color);
     background-image: url(./images/hero-image.png);
@@ -32,6 +32,16 @@
     background-size: contain;
     display: flex;
     justify-content: flex-end;
+}
+
+@media only screen and (max-width: 767px) {
+    .hero-area {
+    background-image: none;
+    }
+
+    .hero-area.container-fluid p {
+        size: 10px;
+    }
 }
 
 .my-button {
